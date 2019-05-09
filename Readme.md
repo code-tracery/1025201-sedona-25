@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [DarkAce](https://up.htmlacademy.ru/htmlcss/25/user/1025201).
-* Наставник: `Неизвестно`.
+* Студент: [Денис Мекшин](https://up.htmlacademy.ru/htmlcss/25/user/1025201).
+* Наставник: [Евгений Котов](https://up.htmlacademy.ru/htmlcss/25/user/25083).
 
 ---
 
