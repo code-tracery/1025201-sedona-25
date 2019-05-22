@@ -1,0 +1,50 @@
+
+body {
+    margin: 0px;
+    font-family: 'PT Sans', Aral, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #000000;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    width: 1200px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none; 
+}
+
+.site-navigation li {
+    line-height: 26px;
+    list-style: none;
+    font-weight: 700;
+}
+
+.site-navigation a {
+    color: #000000;
+}
+.presentation {
+    background-image: url("../img/intro.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 800px;
+    /*background-size: 1200px 724px; */
+    background-size: cover;
+}
+
+.presentation img {
+    margin-top: 76px;
+    margin-left: 370px; 
+}
