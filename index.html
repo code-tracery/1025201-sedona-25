@@ -9,7 +9,8 @@
 	</head>
 
 	<body>
-		<header class="site-header">
+		<div class="site-wraper">
+			<header class="site-header">
 			<h1 class="visually-hidden">Туризм в Седоне: достопримечательности и бронирование гостиниц</h1>
 			<img class="logo" src="img/logo-sedona.svg" width="140" height="72" alt="Логотип Город-Седона">
 			<nav class="site-navigation">
@@ -20,16 +21,18 @@
 					<li><a href="hotels.html">Гостиницы</a></li>
 				</ul>
 			</nav>
-		</header>
+			</header>
 
-		<main class="site-container">
-			<section class="presentation">
+			<main class="site-container">
+			<section class="presentation banner">
 				<h2 class="visually-hidden">Презентация</h2>
 				<img src="img/intro-welcome.svg" width="459" height="353" alt="Добро пожаловать в Седону!">
-				<p>
-					Седона - небольшой городок в Аризоне, заслуживающий большего! 
+			</section>
+			<section class="slogan">		
+				<p class="slogan-text">
+					Седона - небольшой городок в Аризоне,<br> заслуживающий большего! 
 				</p>
-				<p>
+				<p class="slogan-reasons">	
 					Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!  
 				</p>
 			</section>
@@ -143,25 +146,26 @@
 			<section class="map"> 
 				<h2 class="visually-hidden">Карта</h2>
 			</section>
-		</main>
+			</main>
 
-		<footer class="site-footer">
+			<footer class="site-footer">
 			<b>#visitsedona</b>
-			<ul class="social-button">
-				<li><a href="#">twitter</a></li>
-				<li><a href="#">facebook</a></li>
-				<li><a href="#">vkontakte</a></li>
-			</ul>
+			<div class="social-button">
+				<a class="social social-tw" href="#">twitter</a></li>
+				<a class="social social-fb" href="#">facebook</a></li>
+				<a class="social social-yt" href="#">vkontakte</a></li>
+			</div>
 			<p>
 				Website by
 				<a href="https://htmlacademy.ru/intensive/htmlcss">
 				<img src="img/logo-htmlacademy.svg" width="115" height="41" alt="Логотип HTML Академия"> 
 				</a>
 			</p>
-		</footer>
+			</footer>
 	
-		<script>
+			<script>
 
-		</script>
+			</script>
+		</div>
 	</body>
 </html>
